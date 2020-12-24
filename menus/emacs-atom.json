@@ -1,0 +1,26 @@
+{
+	"context-menu": {
+		"atom-text-editor": [
+			{
+				"label": "Find File",
+				"command": "emacs-atom:find-file"
+			}
+		]
+	},
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "emacs-atom",
+					"submenu": [
+						{
+							"label": "Find File",
+							"command": "emacs-atom:find-file"
+						}
+					]
+				}
+			]
+		}
+	]
+}

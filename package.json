@@ -1,0 +1,27 @@
+{
+	"name": "emacs-atom",
+	"main": "./lib/emacs-atom",
+	"version": "0.1.0",
+	"description": "Emacs Package for Atom",
+	"consumedServices": {
+		"status-bar": {
+			"versions": {
+				"^1.0.0": "consumeStatusBar"
+			}
+		},
+		"file-icons.element-icons": {
+			"versions": {
+				"1.0.0": "consumeElementIcons"
+			}
+		}
+	},
+	"keywords": [],
+	"repository": "https://github.com/SeungukShin/emacs-atom",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+		"atom-select-list": "^0.7.2"
+	}
+}
