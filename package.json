@@ -15,6 +15,17 @@
 			}
 		}
 	},
+	"configSchema": {
+		"logLevel": {
+			"type": "string",
+			"default": "E",
+			"enum": [
+				{ "value": "E", "description": "Error" },
+				{ "value": "W", "description": "Warning" },
+				{ "value": "I", "description": "Information" }
+			]
+		}
+	},
 	"keywords": [],
 	"repository": "https://github.com/SeungukShin/emacs-atom",
 	"license": "MIT",
