@@ -1,7 +1,7 @@
 {
 	"name": "emacs-atom",
 	"main": "./lib/emacs-atom",
-	"version": "0.0.0",
+	"version": "0.1.0",
 	"description": "Emacs Package for Atom",
 	"consumedServices": {
 		"status-bar": {
@@ -20,9 +20,18 @@
 			"type": "string",
 			"default": "E",
 			"enum": [
-				{ "value": "E", "description": "Error" },
-				{ "value": "W", "description": "Warning" },
-				{ "value": "I", "description": "Information" }
+				{
+					"value": "E",
+					"description": "Error"
+				},
+				{
+					"value": "W",
+					"description": "Warning"
+				},
+				{
+					"value": "I",
+					"description": "Information"
+				}
 			]
 		}
 	},
