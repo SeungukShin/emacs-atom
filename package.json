@@ -1,7 +1,7 @@
 {
 	"name": "emacs-atom",
 	"main": "./lib/emacs-atom",
-	"version": "0.1.0",
+	"version": "0.0.0",
 	"description": "Emacs Package for Atom",
 	"consumedServices": {
 		"status-bar": {

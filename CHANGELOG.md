@@ -1,4 +1,4 @@
-## 0.1.0 - First Release
+## 0.1.0
 ### Added
 - Add key bindings. - moving cursor (forward, backward, up, and down), search, save file, copy, cut, and paste
 - Add key bindings. - moving cursor (forward / backward one word, beginning / end of line, page up / down, top, bottom, and goto line)
